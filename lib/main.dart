@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:gestacare/Screens/chatbot.dart';
 import 'package:gestacare/Screens/homescreen.dart';
 import 'package:gestacare/Screens/introscreen.dart';
 import 'package:gestacare/Screens/loginscreen.dart';
 import 'package:gestacare/Screens/signupscreen.dart';
+import 'package:gestacare/Screens/splashscreen.dart';
 import 'package:gestacare/firebase_options.dart';
 
 void main() async {
@@ -46,7 +48,7 @@ class MyApp extends StatelessWidget {
         // Remove primarySwatch if not needed
         // primarySwatch: Colors.green,
       ),
-      home: LoginScreen(),
+      home: SplashScreen(),
     );
   }
 }

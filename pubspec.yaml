@@ -42,6 +42,9 @@ dependencies:
   cloud_firestore: ^5.6.0
   google_generative_ai: ^0.4.6
   flutter_chat_ui: ^1.6.15
+  fl_chart: ^0.69.2
+  
+  
 
   # Add any other necessary dependencies
 
@@ -84,6 +87,8 @@ flutter:
     - assets/images/diary_icon.png
     - assets/images/peacock_feather.png
     - assets/images/peacock.png
+    - assets/images/babybot.png
+    - assets/images/pregnant_silhouette.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

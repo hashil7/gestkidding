@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gestacare/Screens/chatbot.dart';
 import 'package:gestacare/Screens/diaryscreen.dart';
 import 'package:gestacare/Screens/homescreen.dart';
 import 'package:gestacare/Screens/explorescreen.dart';
@@ -62,10 +63,12 @@ class _BaseScreenState extends State<BaseScreen> {
         );
         break;
       case 4:
-        // Navigator.pushReplacement(
-        //   context,
-        //   MaterialPageRoute(builder: (context) => const ChatbotScreen()), // Assuming ChatbotScreen exists
-        // );
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+              builder: (context) =>
+                  const ChatScreen()), // Assuming ChatbotScreen exists
+        );
         break;
       // Add cases for other screens as needed
     }

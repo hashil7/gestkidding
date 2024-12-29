@@ -175,8 +175,8 @@ class _SearchScreenState extends State<SearchScreen> {
                     ),
                   ),
                   const SizedBox(height: 20),
-                  Image.network(
-                    'https://loremflickr.com/600/400/$query',
+                  Image.asset(
+                    'assets/images/burger.png',
                     height: height * 0.2,
                     width: width * 0.6,
                     fit: BoxFit.contain,
