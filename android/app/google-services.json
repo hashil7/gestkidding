@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "738527322937",
+    "project_id": "gestacare-6a3dd",
+    "storage_bucket": "gestacare-6a3dd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738527322937:android:6bc12a14b528b28ee2bee8",
+        "android_client_info": {
+          "package_name": "com.example.gestacare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlxFppRSuDYug6uD8yEvVXxXxvCqJPRW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
